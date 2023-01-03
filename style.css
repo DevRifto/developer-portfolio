@@ -3,24 +3,28 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 60px;
+    font-size: 47px;
+}
+
+.h2
+{
+    font-size: 40px;
 }
 .orange{
 
     color: orange;
 }
-section{
+.flexibel-container{
 
-    display: flex;
-    margin-bottom: 150px;
+display: flex;
+
+margin-bottom: 150px;
 }
 .half-width {
 
-width: 50%;
-
-font-size: 22px;
-
-padding-left: 5%;
+    width: 50%;
+    font-size: 18px;
+    padding-left: 6%;
 }
 .half-width img {
 
@@ -40,4 +44,35 @@ padding-left: 5%;
 
     background-image: url(/image/top-banner.png);
     background-repeat: no-repeat;
+}
+.right-banner{
+
+    background-image: url(/image/right-banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experiences-head{
+
+    margin-left: auto;
+}
+.experiences{
+
+    width: 40%;
+    padding: 10px;
+    margin-left: 5%;
+    box-shadow: 10px 10px 10px gray;
+    border-image: linear-gradient(red, yellow) ;
+    border-left: 7px solid ;
+    border-image-slice: 1;
+    
+
+}
+.left-img{
+
+    background-image: url(/image/left-banner.png);
+    background-repeat: no-repeat;
+}
+footer{
+
+    text-align: center;
 }

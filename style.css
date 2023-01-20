@@ -1,78 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-}
-h1{
-    font-size: 47px;
 }
 
-.h2
-{
-    font-size: 40px;
+section{
+
+    margin-bottom: 10%;
 }
-.orange{
+/* ============================================================================================================Header */
+
+span{
 
     color: orange;
 }
-.flexibel-container{
 
-display: flex;
+.container{
 
-margin-bottom: 150px;
+    width: 1300px;
+    margin: 0 auto;
 }
-.half-width {
 
-    width: 50%;
-    font-size: 18px;
-    padding-left: 6%;
+.flex{
+
+    display: flex;
 }
-.half-width img {
 
-    width: 80%;
+h1{
 
+    font-size: 40px;
 }
-.link-button {
+h3{
+
+    font-size: 20px;
+}
+.sec1-title p{
+    text-align: justify;
+    margin-bottom: 10%;
+    width: 61%;
+}
+a{
 
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(orange, tomato);
-    font-weight: 700;
-    padding: 10px 40px;
-    border-radius: 10px;
+    background-image: linear-gradient(tomato, rgba(233, 105, 20, 0.863));
+    padding: 15px 40px;
+    border-radius: 40px;
 }
-.top-banner{
+/* ============================================================================================================Header */
 
-    background-image: url(/image/top-banner.png);
-    background-repeat: no-repeat;
+
+/* ============================================================================================================main */
+
+.sec2-img{
+
+    margin-right: 23%;
 }
-.right-banner{
 
-    background-image: url(/image/right-banner.png);
-    background-repeat: no-repeat;
-    background-position: right;
+.sec2-title p{
+
+    width: 88%;
+    text-align: justify;
+    margin-bottom: 10%;
 }
-.experiences-head{
 
-    margin-left: auto;
-}
-.experiences{
 
-    width: 40%;
-    padding: 10px;
-    margin-left: 5%;
-    box-shadow: 10px 10px 10px gray;
-    border-image: linear-gradient(red, yellow) ;
-    border-left: 7px solid ;
-    border-image-slice: 1;
-    
+/* ============================================================================================================main */
 
-}
-.left-img{
 
-    background-image: url(/image/left-banner.png);
-    background-repeat: no-repeat;
-}
-footer{
+/* ============================================================================================================footer */
+
+.text{
 
     text-align: center;
+    background-color: antiquewhite;
 }
+
+.sec4-container{
+
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.sec4-title p{
+
+    width: 90%;
+    text-align: justify;
+
+}
+
+.footer{
+    
+    text-align: center;
+}
+
+/* ============================================================================================================footer */
